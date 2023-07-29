@@ -1,0 +1,43 @@
+﻿@{
+    ViewData["Maquetado"] = "Pagina web";
+}
+<div class="row">
+    <div class="card text-bg-danger div-general col-sm-12 col-md-2 col-lg-2 col-xl-2">
+        <h3 class="text-center">Menu</h3>
+    </div>
+    <div class="card text-bg-success div-general col-sm-12 col-md-9 col-lg-9 col-xl-9 ">
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-6 col-xl-4 image-column image-cats">
+                <img src="Imagen\Imagen.jpeg" alt="Imagen 1" class="img-fluid w-100">
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-6 col-xl-4 image-column image-cats">
+                <img src="Imagen\Imagen.jpeg" alt="Imagen 2" class="img-fluid w-100">
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-6 col-xl-4 image-column image-cats">
+                <img src="Imagen\Imagen.jpeg" alt="Imagen 3" class="img-fluid w-100">
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+
+    .div-general {
+        margin: 0.5vh;
+        background-color: mediumseagreen;
+    }
+
+    .div-general:nth-of-type(1){
+        background-color:darkred;
+    }
+
+    .image-cats {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+        .image-cats img {
+            margin: 2vh;
+        }
+</style>
